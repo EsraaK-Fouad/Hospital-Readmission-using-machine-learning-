@@ -1,0 +1,345 @@
+/**
+*   main color : #f8c440
+*   sub color :#bb2c3a
+*
+**/
+*
+
+
+{
+    margin: 0;
+    padding:0;
+    p.a {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+@media(max-width:1000px)
+{
+    .container
+    {
+        width: 95%;
+        margin: auto;
+    }
+}
+img
+{
+    width:100%;
+}
+body
+{
+    background-image: url(../images/jungleBack1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+.clrfix
+{
+    clear: both;
+}
+img
+{
+    width:100%  ;
+}
+body div
+{
+    position: relative;
+    z-index: 2;
+}
+.black-layer
+{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+
+/** Start Nav Styles **/
+
+.nav
+{
+    padding:20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+    background-color: rgba(75, 127, 134, 0.3);
+}
+.nav .logo
+{
+    float: left;
+    width: 15%;
+
+}
+.nav .drilled-img
+{
+    width:7%;
+    position: absolute;
+    top:15;
+    right:50;
+}
+.nav .labels
+{
+    float: left;
+    width: 55%;
+}
+.nav .labels .navlist
+{
+    text-align: right;
+    margin: 30px 30;
+}
+.nav .labels .navlist li
+{
+    display: inline-block;
+}
+.nav .labels .navlist li a
+{
+    font-size: 20px;
+    font-weight: 600;
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    padding:15px 20px;
+    margin:0 20px;
+    transition:all ease 0.4s;
+}
+.nav .labels .navlist li a:hover
+{
+    transform: scale(1.5);
+}
+@media(max-width:1000px)
+{
+    .nav
+    {
+        padding:10px 0;
+    }
+    .nav .logo
+    {
+        margin-top: 10px;
+        width:10%;
+    }
+    .nav .drilled-img
+    {
+        display: none;
+    }
+    .nav .labels
+    {
+        width: 90%;
+    }
+    .nav .labels .navlist
+    {
+        text-align: right;
+        margin: 0 0;
+    }
+    .nav .labels .navlist li a
+    {
+        padding: 10px 0 0 15px;
+        margin:0 0px;
+        font-size: 15px;
+    }
+}
+/** End Nav Styles **/
+
+
+/** Start Main Styles **/
+
+.main
+{
+    text-align: center;
+    padding:180px 0 100px;
+}
+.main .content h1
+{
+    font-size:40px;
+    margin-bottom: 5px;
+}
+.main .content p
+{
+    font-size: 24px;
+    line-height: 50px;
+}
+@media(max-width:1000px)
+{
+    .main .content h1
+    {
+        font-size:60px;
+        margin-bottom: 10px;
+    }
+    .main .content p
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+/** End Main Styles **/
+
+/** Start Video Styles **/
+@media(max-width:1000px)
+{
+    .vid iframe
+    {
+        height: 300px;
+    }
+}
+/** End Video Styles **/
+
+/** Start Characters Styles **/
+
+.chars
+{
+    padding: 200px 0 0;
+}
+.chars .head
+{
+    text-align: left;
+}
+.chars .head h2
+{
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+.chars .head p
+{
+    font-size: 24px;
+    line-height: 50px;
+}
+
+@media(max-width:1000px)
+{
+    .chars .head h2
+    {
+        font-size: 37px;
+        margin-bottom: 20px;
+    }
+    .chars .head p
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+.chars .char
+{
+    margin:200px 0;
+}
+.chars .char .desc
+{
+    float:left;
+    width:60%;
+}
+.chars .left .desc
+{
+    float: right;
+}
+.chars .right .desc
+{
+    float: left;
+}
+.chars .char .desc .name
+{
+    font-size: 60px;
+}
+.chars .char .desc .about
+{
+    padding: 20px 40px 0 0;
+    font-size: 14px;
+    line-height: 25px;
+}
+.chars .char .desc .quote
+{
+    padding:20px 20px 20px 0;
+    font-size: 16px;
+    line-height: 25px;
+    font-style: italic;
+}
+.chars .char .desc .quote .speaker
+{
+    font-weight: bold;
+}
+.chars .char .pic
+{
+    float:right;
+    width:40%;
+}
+.chars .left .pic
+{
+    float: left;
+}
+.chars .right .pic
+{
+    float: right;
+}
+.chars .char .pic .img-container
+{
+    padding:45px 0 0;
+}
+.chars .mufasa .pic .img-container
+{
+    padding: 75px 0px 0;
+}
+.chars .simba .pic .img-container
+{
+    padding: 45px 60px 0;
+}
+.chars .scar .pic .img-container
+{
+    padding: 90px 34px 0;   
+}
+.chars .rafiki .pic .img-container
+{
+    padding: 0 92px 0;
+}
+@media(max-width:1000px)
+{
+    .chars .char .pic,
+    .chars .char .desc
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .chars .char .desc .name
+    {
+        font-size: 37px;
+    }
+    .chars .char .desc .about
+    {
+        padding: 20px 0 0 0;
+        font-size: 14px;
+    }
+    .chars .char .desc .quote
+    {
+        padding:20px 0 20px 0;
+    }
+    .chars .char .pic .img-container
+    {
+        padding:0 0 30px;
+    }
+    .chars .rafiki .pic .img-container
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .chars .simba .pic .img-container
+    {
+/*        padding: 45px 60px 0;*/
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+    .chars .scar .pic .img-container
+    {
+/*        padding: 90px 34px 0;   */
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+}
+/** End Characters Styles **/
